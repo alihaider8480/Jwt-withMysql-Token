@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/alidb
+    username: root
+    password: admin123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  main:
+    allow-circular-references: true
+jwt:
+  secret: secret
